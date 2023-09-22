@@ -17,6 +17,6 @@ This where our *TatweelJS* library becomes handy, It was created to replace the 
 
 ## How to use tatweel.js ?
 To use TatweelJS in your project, simply just call the `tatweel.js` file in your HTML code 
-```
+```js
 <script type="text/javascript" src="../js/tatweel.js"></script>
 ```
