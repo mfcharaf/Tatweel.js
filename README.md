@@ -8,6 +8,8 @@ As you should know, in CSS the `letter-spacing` property controls the amount of 
 But with arabic texts this may cause an issue, because arabic text is always written where letters are attached to eachother, like this one ```مرحبا بك``` This CSS property makes the text look less conviniant, and some times hard to read, and distunguish between words. It will look like something like this ```مـ ر حـ ب ا بـ ك```.
 
 This where our *TatweelJS* library becomes handy, It was created to replace the `letter-spacing` CSS property, it gives a proper spacing between letters for arabic text.
+
+The arabic text is actually stretched by using the 'ـ' character and not an actual space, so we prefer to call it *stretching* and not *spacing*.
 ```
 مرحبا بك
 مــرحــبــا بــك 
@@ -20,3 +22,11 @@ To use TatweelJS in your project, simply just call the `tatweel.js` file in your
 ```js
 <script type="text/javascript" src="../js/tatweel.js"></script>
 ```
+To apply the stretching to your text, just add the `tatweel` class name to your html element.
+```html
+<div class="tatweel">مرحبا بك</div>
+```
+```
+output : مـــرحـــبـــا بـــك
+```
+
