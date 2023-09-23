@@ -27,3 +27,5 @@ To apply the stretching to your text, just add the `tatweel` class name to your 
 <div class="tatweel">مرحبا بك</div>
 ```
 output:<br>مـــرحـــبـــا بـــك
+
+As you notice the default stretching value is 3 (ـــ). To change that you can also add the `tw-*` class name (eg., <span style="color:#d63384;"></span> )
