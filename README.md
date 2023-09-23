@@ -28,4 +28,4 @@ To apply the stretching to your text, just add the `tatweel` class name to your 
 ```
 output:<br>مـــرحـــبـــا بـــك
 
-As you notice the default stretching value is 3 (ـــ). To change that you can also add the `tw-*` class name (eg., <span style="color:#d63384;"><code>.tw-1 .tw-2 .tw-3 </code></span> )
+As you notice the default stretching value is 3 (ـــ). To change that you can also add the `tw-*` class name (eg., <code style="color:#d63384;">.tw-1</code> <code style="color:#d63384;">.tw-2</code> <code style="color:#d63384;">.tw-3</code> )
