@@ -10,6 +10,8 @@ But with arabic texts this may cause an issue, because arabic text is always wri
 This where our *TatweelJS* library becomes handy, It was created to replace the `letter-spacing` CSS property, it gives a proper spacing between letters for arabic text.
 
 The arabic text is actually stretched by using the 'ـ' character and not an actual space, so we prefer to call it *stretching* and not *spacing*.
+
+<img src="https://github.com/mfcharaf/Tatweel.js/blob/main/img/1.png">
 ```
 مرحبا بك
 مــرحــبــا بــك 
