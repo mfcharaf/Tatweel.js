@@ -1,5 +1,3 @@
-<p align="left"> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="20" height="20"/> </a> </p>
-
 # Tatweel.js
 A Javascript library to stretch Arabic words in a proper way.
 
@@ -83,3 +81,6 @@ Output:
 مـــــرحـــــبـــــا بـــــك 
 أهـــــلا وســـــهـــــلا
 ```
+
+# More examples
+For arabic documentations and more examples (click here)[#].
