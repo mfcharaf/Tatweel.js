@@ -24,8 +24,20 @@ To use TatweelJS in your project, simply just call the `tatweel.js` file in your
 ```
 To apply the stretching to your text, just add the `tatweel` class name to your html element.
 ```html
-<div class="tatweel">مرحبا بك</div>
+<span class="tatweel">مرحبا بك</span>
 ```
-output:<br>مـــرحـــبـــا بـــك
+Output:<br>مـــرحـــبـــا بـــك
 
-As you notice the default stretching value is 3 (ـــ). To change that you can also add the `tw-*` class name (eg., <code style="color:#d63384;">.tw-1</code> <code style="color:#d63384;">.tw-2</code> <code style="color:#d63384;">.tw-3</code> )
+As you notice the default stretching value is 3 (ـــ).
+To change that you can also add the `tw-*` class name (eg., <code>.tw-1</code> <code>.tw-2</code> <code>.tw-3</code> )
+```html
+<span class="tatweel tw-1">مرحبا بك</span>
+<span class="tatweel tw-2">مرحبا بك</span>
+<span class="tatweel tw-3">مرحبا بك</span>
+<span class="tatweel tw-5">مرحبا بك</span>
+```
+Output:<br>
+مـرحـبـا بـك <br>
+مــرحــبــا بــك <br>
+مـــرحـــبـــا بـــك <br>
+مـــــرحـــــبـــــا بـــــك <br>
