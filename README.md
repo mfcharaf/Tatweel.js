@@ -83,4 +83,4 @@ Output:
 ```
 
 # More examples
-For arabic documentations and more examples (click here)[#].
+For arabic documentations and more examples [click here](#).
