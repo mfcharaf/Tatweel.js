@@ -27,4 +27,3 @@ To apply the stretching to your text, just add the `tatweel` class name to your 
 <div class="tatweel">مرحبا بك</div>
 ```
 output:<br>مـــرحـــبـــا بـــك
-
