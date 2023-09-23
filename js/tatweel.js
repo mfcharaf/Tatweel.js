@@ -298,7 +298,7 @@ function Tatweel() {
 
   // Default settings
   this.settings = {
-    length: 5,
+    length: 3,
     fullWord: true,
     includeChilds: true,
   };
