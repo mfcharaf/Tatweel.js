@@ -366,6 +366,7 @@ function Tatweel() {
     }
     else {
       // not implemented yet
+      console.log(inText.split('\s').length);
     }
 
     return outText;
