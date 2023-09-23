@@ -50,24 +50,24 @@ To apply stretching on child elements just add the `tw-childs` class name, this 
 
 **Not including child elements**
 ```html
-<div class="tatweel tw-3">
+<div class="tatweel tw-5">
      مرحبا بك
      <br>
      <span>أهلا وسهلا</span>
 </div>
 ```
 Output:<br>
-مـــرحـــبـــا بـــك <br>
+مـــــرحـــــبـــــا بـــــك <br>
 أهلا وسهلا
 
 **Including child elements**
 ```html
-<div class="tatweel tw-childs tw-3">
+<div class="tatweel tw-childs tw-5">
      مرحبا بك
      <br>
      <span>أهلا وسهلا</span>
 </div>
 ```
 Output:<br>
-مـــرحـــبـــا بـــك <br>
-أهـــلا وســـهـــلا
+مـــــرحـــــبـــــا بـــــك <br>
+أهـــــلا وســـــهـــــلا
