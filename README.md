@@ -52,7 +52,7 @@ Output:
 By default, tatweel.js only works with the text inside the element, any text inside its child elements will not be affected.<br>
 To apply stretching on child elements just add the `tw-childs` class name, this will affect any text inside the elements and its child elements.
 
-**Not including child elements**
+**Example 01 : Not including child elements**
 ```html
 <div class="tatweel tw-5">
      مرحبا بك
@@ -66,7 +66,7 @@ Output:
 أهلا وسهلا
 ```
 
-**Including child elements**
+**Example 02 : Including child elements**
 ```html
 <div class="tatweel tw-childs tw-5">
      مرحبا بك
