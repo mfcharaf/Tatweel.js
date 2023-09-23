@@ -28,7 +28,10 @@ To apply the stretching to your text, just add the `tatweel` class name to your 
 ```html
 <span class="tatweel">مرحبا بك</span>
 ```
-Output:<br>مـــرحـــبـــا بـــك
+Output:
+```
+مـــرحـــبـــا بـــك
+```
 ## Add more stretching
 As you notice the default stretching value is 3 (ـــ).
 To change that you can also add the `tw-*` class name (eg., <code>.tw-1</code> <code>.tw-2</code> <code>.tw-3</code> )
@@ -38,12 +41,13 @@ To change that you can also add the `tw-*` class name (eg., <code>.tw-1</code> <
 <span class="tatweel tw-3">مرحبا بك</span>
 <span class="tatweel tw-5">مرحبا بك</span>
 ```
-Output:<br>
-مـرحـبـا بـك <br>
-مــرحــبــا بــك <br>
-مـــرحـــبـــا بـــك <br>
-مـــــرحـــــبـــــا بـــــك <br>
-
+Output:
+```
+مـرحـبـا بـك 
+مــرحــبــا بــك 
+مـــرحـــبـــا بـــك 
+مـــــرحـــــبـــــا بـــــك 
+```
 ## Apply stretching to child elements
 By default, tatweel.js only works with the text inside the element, any text inside its child elements will not be affected.<br>
 To apply stretching on child elements just add the `tw-childs` class name, this will affect any text inside the elements and its child elements.
@@ -56,9 +60,11 @@ To apply stretching on child elements just add the `tw-childs` class name, this 
      <span>أهلا وسهلا</span>
 </div>
 ```
-Output:<br>
-مـــــرحـــــبـــــا بـــــك <br>
+Output:
+```
+مـــــرحـــــبـــــا بـــــك
 أهلا وسهلا
+```
 
 **Including child elements**
 ```html
@@ -68,6 +74,8 @@ Output:<br>
      <span>أهلا وسهلا</span>
 </div>
 ```
-Output:<br>
-مـــــرحـــــبـــــا بـــــك <br>
+Output:
+```
+مـــــرحـــــبـــــا بـــــك 
 أهـــــلا وســـــهـــــلا
+```
