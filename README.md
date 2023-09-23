@@ -23,13 +23,13 @@ To use TatweelJS in your project, simply just call the `tatweel.js` file in your
 ```js
 <script type="text/javascript" src="../js/tatweel.js"></script>
 ```
-## Usage guide
+## Simple usage
 To apply the stretching to your text, just add the `tatweel` class name to your html element.
 ```html
 <span class="tatweel">مرحبا بك</span>
 ```
 Output:<br>مـــرحـــبـــا بـــك
-
+## Add more stretching
 As you notice the default stretching value is 3 (ـــ).
 To change that you can also add the `tw-*` class name (eg., <code>.tw-1</code> <code>.tw-2</code> <code>.tw-3</code> )
 ```html
@@ -43,3 +43,31 @@ Output:<br>
 مــرحــبــا بــك <br>
 مـــرحـــبـــا بـــك <br>
 مـــــرحـــــبـــــا بـــــك <br>
+
+## Apply stretching to child elements
+By default, tatweel.js only works with the text inside the element, any text inside its child elements will not be affected.<br>
+To apply stretching on child elements just add the `tw-childs` class name, this will affect any text inside the elements and its child elements.
+
+**Not including child elements**
+```html
+<div class="tatweel tw-3">
+     مرحبا بك
+     <br>
+     <span>أهلا وسهلا</span>
+</div>
+```
+Output:<br>
+مـــرحـــبـــا بـــك <br>
+أهلا وسهلا
+
+**Including child elements**
+```html
+<div class="tatweel tw-childs tw-3">
+     مرحبا بك
+     <br>
+     <span>أهلا وسهلا</span>
+</div>
+```
+Output:<br>
+مـــرحـــبـــا بـــك <br>
+أهـــلا وســـهـــلا
