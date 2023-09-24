@@ -1,9 +1,9 @@
-# Tatweel.js
+# مكتبة Tatweel.js
 A Javascript library to stretch Arabic words in a proper way.
 
-# Why should I use tatweel.js ?
-As you should know, in CSS the `letter-spacing` property controls the amount of space between each letter in a given element or block of text.
-But with arabic texts this may cause an issue, because arabic text is always written where letters are attached to eachother, like this one ```مرحبا بك``` This CSS property makes the text look less conviniant, and some times hard to read, and distunguish between words. It will look like something like this ```مـ ر حـ ب ا بـ ك```.
+# لماذا يجب أن أستخدم tatweel.js ?
+كما تعلم جيدا، في CSS، تتحكم خاصية `letter-spacing` في كمية المسافة بين كل حرف في عنصر معين أو كتلة نص.
+ولكن مع النصوص العربية، يمكن أن يسبب هذا مشكلة، لأن النص العربي دائمًا مكتوبًا بحيث تكون الأحرف متصلة ببعضها البعض، مثل هذا النص: ```مرحبا بك``` هذه الخاصية في CSS تجعل النص يبدو أقل ملاءمة، وأحيانا صعب القراءة، وصعب التمييز بين الكلمات. سيبدو شيئا مشابها لهذا: ```مـ ر حـ ب ا بـ ك```.
 
 This where our *TatweelJS* library becomes handy, It was created to replace the `letter-spacing` CSS property, it gives a proper spacing between letters for arabic text.
 
