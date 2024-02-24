@@ -332,10 +332,10 @@ function Tatweel() {
   };
 
   function apply(elem, settings) {
-    var child = elem.firstChild;
+    let child = elem.firstChild;
     while (child) {
       if (child.nodeType == 3) {
-        var text = child.data.trim();
+        let text = child.data.trim();
         child.data = wordTatweel(text, settings) + " ";
       } else if (child.nodeType == 1 && settings.includeChilds) {
         apply(child, settings);
@@ -349,14 +349,14 @@ function Tatweel() {
   }
 
   function wordTatweel(inText, settings) {
-    var outText = "";
-    var tatweel = createTatweel(settings.length);
+    let outText = "";
+    let tatweel = createTatweel(settings.length);
 
     if (settings.fullWord) {
       for (let i = 0; i < inText.length - 1; i++) {
-        var letter = inText.charAt(i);
-        var nLetter = inText.charAt(i + 1);
-        var cond =
+        let letter = inText.charAt(i);
+        let nLetter = inText.charAt(i + 1);
+        let cond =
           !_this.allowedChars.includes(letter) ||
           (letter == "\u0644" && _this.alifs.includes(nLetter)) ||
           _this.ends.includes(nLetter);
@@ -366,7 +366,7 @@ function Tatweel() {
     }
     else {
       // not implemented yet
-      console.log(inText.split('\s').length);
+      console.log("Not implemented yet");
     }
 
     return outText;

@@ -94,4 +94,4 @@ Output:
 ```
 
 # More examples
-For arabic documentations and more examples [click here](#).
+For arabic documentations and more examples [click here](https://github.com/mfcharaf/Tatweel.js/blob/main/README-ar.md).
