@@ -16,7 +16,7 @@ CSS
   ويصعب التمييز بين الكلمات. سيبدو شيئا مشابها لهذا:
    ```مـ ر حـ ب ا بـ ك```.
 
-This where our *TatweelJS* library becomes handy, It was created to replace the `letter-spacing` CSS property, it gives a proper spacing between letters for arabic text.
+في هذه الحالة تصبح مكتبة  *TatweelJS* مفيدة, فلقد تم انشاؤها لتحل محل  `letter-spacing` في لغة الـ CSS , it gives a proper spacing between letters for arabic text.
 
 The arabic text is actually stretched by using the 'ـ' character and not an actual space, so we prefer to call it *stretching* and not *spacing*.
 
