@@ -1,5 +1,5 @@
 # مكتبة Tatweel.js
-A Javascript library to stretch Arabic words in a proper way.
+مكتبة جافاسكريبت لتمديد الكلمات العربية بشكل مناسب.
 
 # لماذا يجب أن أستخدم tatweel.js ?
 كما يعلم الحميع أنه في لغة 
@@ -36,18 +36,18 @@ CSS
 ```js
 <script type="text/javascript" src="../js/tatweel.js"></script>
 ```
-## Simple usage
-To apply the stretching to your text, just add the `tatweel` class name to your html element.
+## طريقة الإستخدام
+لتطبيق التمديد على نصك، ما عليك سوى إضافة اسم الفئة (كلاس) `tatweel` إلى عنصر HTML الخاص بك.
 ```html
 <span class="tatweel">مرحبا بك</span>
 ```
-Output:
+النتيجة:
 ```
 مـــرحـــبـــا بـــك
 ```
-## Add more stretching
-As you notice the default stretching value is 3 (ـــ).
-To change that you can also add the `tw-*` class name (eg., <code>.tw-1</code> <code>.tw-2</code> <code>.tw-3</code> )
+## إضافة المزيد من التمديد  
+كما تلاحظ، فإن قيمة التمديد الافتراضية هي 3 (ـــ).  
+لتغيير ذلك، يمكنك أيضًا إضافة اسم الفئة `tw-*` (على سبيل المثال، <code>.tw-1</code> <code>.tw-2</code> <code>.tw-3</code>).
 ```html
 <span class="tatweel tw-1">مرحبا بك</span>
 <span class="tatweel tw-2">مرحبا بك</span>
@@ -61,11 +61,11 @@ Output:
 مـــرحـــبـــا بـــك 
 مـــــرحـــــبـــــا بـــــك 
 ```
-## Apply stretching to child elements
-By default, tatweel.js only works with the text inside the element, any text inside its child elements will not be affected.<br>
-To apply stretching on child elements just add the `tw-childs` class name, this will affect any text inside the elements and its child elements.
+## تطبيق التمديد على العناصر الفرعية  
+بشكل افتراضي، يعمل **tatweel.js** فقط مع النص داخل العنصر نفسه، وأي نص داخل عناصره الفرعية لن يتأثر.<br>  
+لتطبيق التمديد على العناصر الفرعية، ما عليك سوى إضافة اسم الفئة `tw-childs`، وسيؤثر ذلك على أي نص داخل العنصر وعناصره الفرعية.  
 
-**Example 01 : Not including child elements**
+**مثال 01: بدون تضمين العناصر الفرعية**
 ```html
 <div class="tatweel tw-5">
      مرحبا بك
@@ -73,13 +73,13 @@ To apply stretching on child elements just add the `tw-childs` class name, this 
      <span>أهلا وسهلا</span>
 </div>
 ```
-Output:
+النتيجة:
 ```
 مـــــرحـــــبـــــا بـــــك
 أهلا وسهلا
 ```
 
-**Example 02 : Including child elements**
+**مثال 02: تضمين العناصر الفرعية**
 ```html
 <div class="tatweel tw-childs tw-5">
      مرحبا بك
@@ -87,11 +87,11 @@ Output:
      <span>أهلا وسهلا</span>
 </div>
 ```
-Output:
+النتيجة:
 ```
 مـــــرحـــــبـــــا بـــــك 
 أهـــــلا وســـــهـــــلا
 ```
 
-# More examples
-For arabic documentations and more examples [click here](https://github.com/mfcharaf/Tatweel.js/blob/main/README-ar.md).
+# المزيد من الأمثلة  
+للاطلاع على التوثيق باللغة الإنجليزية ومزيد من الأمثلة [إضغط هنا](https://github.com/mfcharaf/Tatweel.js/).
